@@ -8,7 +8,7 @@ function App() {
     <>
     <h1>Estas es solo una aplicacion de prueba para una actividad</h1>
       <LoginSocialFacebook
-      appId='1563554197766018'
+      appId='7568321253207635'
       onResolve={(response) =>{
         console.log(response)
       }}
