@@ -16,10 +16,10 @@ function App() {
       <LoginSocialFacebook
         appId='7568321253207635' // Replace with your app ID
         onResolve={(response) => {
-          userName = "Welcome " + response.name;
-          setUserName(userName) 
-          userPicture = response.picture.data.url
-          setUserPicture(userPicture) 
+          // userName = "Welcome " + response.name;
+          // setUserName(userName) 
+          // userPicture = response.picture.data.url
+          // setUserPicture(userPicture) 
           console.log(response);
         }}
         onReject={(error) => console.log(error)}
