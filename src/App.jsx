@@ -17,8 +17,6 @@ function App() {
         appId='7568321253207635' // Replace with your app ID
         onResolve={(response) => {
           console.log(response);
-          // userName = "Welcome" + response.name;
-          console.log(response.name) 
         }}
         onReject={(error) => console.log(error)}
       >
