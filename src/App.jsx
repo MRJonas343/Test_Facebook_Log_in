@@ -1,6 +1,6 @@
 import './App.css'
-import { LoginSocialFacebook } from 'reactjs-social-login'
-import { FacebookLoginButton } from 'react-social-login-buttons'
+import { LoginSocialFacebook, LoginSocialTwitter } from 'reactjs-social-login'
+import { FacebookLoginButton,TwitterLoginButton } from 'react-social-login-buttons'
 
 function App() {
   
@@ -16,6 +16,13 @@ function App() {
       >
         <FacebookLoginButton />
       </LoginSocialFacebook>
+      
+      <LoginSocialTwitter
+      consumerKey={"al9HcVl6M1NKWEhwY1BRN19xdkM6MTpjaQ"}
+      consumerSecret={"afIQjcqN3c2pYTl4s0WfCG6WPbASWuovmsvSFKa_va1IzpGTJB"}
+      >
+        <TwitterLoginButton/>
+      </LoginSocialTwitter>
     </>
   )
 }
